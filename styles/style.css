@@ -1,0 +1,68 @@
+@import 'fonts.css';
+
+body{
+    font-family: "Open Sans Regular";
+}
+header{
+    background-color: #111111;
+}
+
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu__item a{
+    
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 37px;
+    
+    
+}
+.menu__item a:hover{
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #fcac45;
+}
+.menu-bar{
+    padding-top: 20px;
+    font-family: 'Open Sans Bold';
+    color: #ffffff;
+    background-color: #111111;
+    
+}
+.logo{
+    font-size: 24px;
+}
+.header{
+    padding-top: 190px;
+    padding-bottom: 410px;
+}
+.header div{
+    background: #111111;
+    text-align: center;
+    
+}
+.header__title{
+    text-transform: uppercase;
+    font-size: 44px;
+    color: #fcac45;
+    
+}
+.header__title span{
+    color: #999999;
+    font-family: "Open Sans Light";
+}
+.header__text{
+    font-size: 20px;
+    color: #ffffff;
+}
+.header__text span{
+    font-family: "Open Sans Bold";
+}
+.about{
+    text-align: center;
+    padding-top: 100px;
+}

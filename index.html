@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-</head>
-<body>
-	<script src="scripts/script.js"></script>
-	<header>
-		<div class="logo">MYCOMPANY</div>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script src="scripts/script.js"></script>
+    <header class="menu-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-start">
+            <p class="logo">MYCOMPANY</p>
+          </div>
+          <div class="col-lg-8 ml-auto align-self-center">
+            <nav>
+              <ul class="menu d-flex justify-content-end">
+                <li class="menu__item"><a href="#">HOME</a></li>
+                <li class="menu__item"><a href="#">ABOUT</a></li>
+                <li class="menu__item"><a href="#">SERVICES</a></li>
+                <li class="menu__item"><a href="#">PORTFOLIO</a></li>
+                <li class="menu__item"><a href="#">TESTIMONIALS</a></li>
+                <li class="menu__item"><a href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <h1 class="header__title col-lg-12"><span>WELCOME on </span>mycompany</h1>
+          <p class="header__text col-lg-12">We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></p>
+        </div>
+      </div>
 	</header>
-	<footer>
-		<h2>О нас</h2>
-	</footer>
-</body>
+	<section class="about">
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="./img/Site.png" alt="ERROR">
+			</div>
+			<div class="col-lg-5">
+				<h1 class="about__title">SOME WORDS ABOUT US</h1>
+				<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
+				<p class="about__small"><i class="far fa-dot-circle"></i><span>Mission</span> - We deliver uniqueness and quality</p>
+				<i class="far fa-dot-circle"></i><p class="about__small"><span>Mission</span> - We deliver uniqueness and quality</p>
+				<i class="far fa-dot-circle"></i><p class="about__small"><span>Mission</span> - We deliver uniqueness and quality</p>
+			</div>
+		</div>
+	</section>
+
+    <footer>
+      <h2>О нас</h2>
+    </footer>
+  </body>
 </html>
