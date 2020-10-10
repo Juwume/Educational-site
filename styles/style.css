@@ -69,6 +69,7 @@ ul, li{
     
     padding-top: 100px;
     text-align: left;
+    padding-bottom: 100px;
 }
 .about__title{
     font-family: "Open Sans Regular";
@@ -88,4 +89,28 @@ ul, li{
 .about__small{
     padding-bottom: 15px;
     margin: 0;
+}
+.our_team{
+    background-color: #010101;
+    color: #FFFFFF;
+    padding: 7em 0 12em 0;
+}
+.our_team__img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.our_team__elements{
+    text-align: center;
+}
+.our_team__title{
+    margin-bottom: 100px;
+}
+.our_team__name{
+    padding: 0;
+    margin: 0.75em 0 0 0;
+}
+.our_team__prof{
+    margin: 0 0 1em 0;
 }
