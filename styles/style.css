@@ -62,7 +62,30 @@ ul, li{
 .header__text span{
     font-family: "Open Sans Bold";
 }
-.about{
+.site{
     text-align: center;
+}
+.about{
+    
     padding-top: 100px;
+    text-align: left;
+}
+.about__title{
+    font-family: "Open Sans Regular";
+    padding-bottom: 9px;
+    border-bottom: 3px solid #fcac45;
+    display: inline-block;
+    font-size: 34px;
+}
+.about__title span{
+    font-family: "Open Sans Bold";
+    
+}
+.about__text{
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.about__small{
+    padding-bottom: 15px;
+    margin: 0;
 }
